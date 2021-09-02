@@ -1,0 +1,41 @@
+.wrapper {
+  // background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    margin-top: 20px;
+    width: 1200px;
+    // background-color: rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+
+    // flex-direction: row;
+    // flex-direction: column;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .content {
+      width: 100%;
+      // background-color: red;
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .wrapper {
+    // background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+    .content {
+      margin-top: 40px;
+      width: 100%;
+      // background-color: rebeccapurple;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+}

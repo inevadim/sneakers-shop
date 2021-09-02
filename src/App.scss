@@ -1,0 +1,23 @@
+body {
+  // background-color: aqua;
+  background-image: url('./assets/img/background.png');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  width: 100vw;
+  height: 100%;
+  // background-color: aqua;
+}

@@ -1,0 +1,93 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  height: 600px;
+  font-size: 20px;
+
+  img {
+    height: 500px;
+    width: 700px;
+  }
+
+  h1 {
+    color: rgb(115, 115, 116);
+    margin-bottom: 10px;
+  }
+
+  .wrapperContent {
+    display: flex;
+
+    .text {
+      // background-color: aquamarine;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      padding: 20px;
+      color: rgb(68, 68, 68);
+
+      span {
+        display: flex;
+        margin-top: 20px;
+        font-size: 25px;
+        img {
+          margin-right: 10px;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts {
+    width: 100%;
+
+    img {
+      height: 300px;
+      width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .contacts {
+    img {
+      height: 200px;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .contacts {
+    .wrapperContent {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      height: 200px;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contacts {
+    .wrapperContent {
+      .text {
+        font-size: 15px;
+        span {
+          font-size: 15px;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

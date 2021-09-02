@@ -1,0 +1,122 @@
+.cardShop {
+  background-color: rgb(255, 255, 255);
+  // background-image: url('/assets/img/background.png');
+  width: 800px;
+  height: 130px;
+  display: flex;
+  // margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+  &:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+  }
+  span {
+    margin-right: 30px;
+
+    font-size: 70px;
+    color: rgb(146, 31, 31);
+    cursor: pointer;
+    &:hover {
+      transition: 0.2s ease-in-out;
+      color: rgb(170, 20, 20);
+      transform: scale(1.2);
+    }
+  }
+  img {
+    border-radius: 15px 0px 0px 15px;
+    width: 150px;
+    height: 130px;
+  }
+
+  .wrapperInfo {
+    color: rgb(136, 135, 135);
+    // background-color: red;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: rgb(146, 31, 31);
+      // margin-bottom: 10px;
+      font-size: 40px;
+      &:hover {
+        transform: none;
+        cursor: default;
+      }
+    }
+    .countInfo {
+      display: flex;
+      align-items: center;
+      .buttonCount {
+        cursor: pointer;
+        font-size: 30px;
+        // background-color: green;
+        font-weight: 600;
+        display: flex;
+        margin-left: 10px;
+        height: 30px;
+        &:hover {
+          color: rgb(146, 31, 31);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .cardShop {
+    width: 95%;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .cardShop {
+    span {
+      font-size: 50px;
+    }
+    .wrapperInfo {
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cardShop {
+    height: 90px;
+    img {
+      height: 90px;
+    }
+    .wrapperInfo {
+      padding-bottom: 15px;
+      height: 80px;
+      font-size: 15px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cardShop {
+    .wrapperInfo {
+      font-size: 12px;
+      span {
+        margin-top: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+}

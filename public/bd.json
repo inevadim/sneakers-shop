@@ -1,0 +1,60 @@
+{
+  "shop_item": [
+    {
+      "id": 1,
+      "name": "Adidas ozelia",
+      "price": 309,
+      "category": 3,
+      "imgUrl": "/assets/img/adidas-ozelia.webp"
+    },
+    {
+      "id": 2,
+      "name": "puma cilia mode",
+      "price": 199,
+      "category": 2,
+      "imgUrl": "/assets/img/puma-cilia-mode.webp"
+    },
+    {
+      "id": 3,
+      "name": "puma rs connect splash",
+      "price": 210,
+      "category": 2,
+      "imgUrl": "/assets/img/puma-rs-connect-splash.webp"
+    },
+    {
+      "id": 4,
+      "name": "Adidas hoops v.2",
+      "price": 139,
+      "category": 3,
+      "imgUrl": "/assets/img/adidas-hoops-2.webp"
+    },
+    {
+      "id": 5,
+      "name": "Nike kyrie flytrap",
+      "price": 299,
+      "category": 1,
+      "imgUrl": "/assets/img/nike-kyrie-flytrap.webp"
+    },
+    {
+      "id": 6,
+      "name": "puma suede classic v2",
+      "price": 199,
+      "category": 2,
+      "imgUrl": "/assets/img/puma-suede-classic.webp"
+    },
+    {
+      "id": 7,
+      "name": "puma suede mono",
+      "price": 199,
+      "category": 2,
+      "imgUrl": "/assets/img/puma-suede-mono.webp"
+    },
+    {
+      "id": 8,
+      "name": "Nike air force mid",
+      "price": 360,
+      "category": 1,
+      "imgUrl": "/assets/img/nikeAirForceMid.webp"
+    }
+  ]
+}

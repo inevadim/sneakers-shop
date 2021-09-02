@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  // background-color: blueviolet;
+  height: 100%;
+  font-size: 25px;
+  align-items: center;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  span {
+    position: absolute;
+    top: -3px;
+    font-size: 20px;
+    margin-left: 1px;
+    color: rgb(172, 46, 46);
+  }
+
+  .itemMenu {
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(110, 108, 108);
+    &:hover {
+      color: rgb(172, 46, 46);
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .menu {
+    span {
+      top: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu {
+    // background-color: blue;
+    flex-direction: column;
+    span {
+      top: 163px;
+    }
+  }
+}
